@@ -1,8 +1,7 @@
 #!/bin/bash
+yum install httpd -y
+systemctl start httpd
+wget https://www.free-css.com/assets/files/free-css-templates/download/page296/oxer.zip
+unzip oxer.zip
+cp -R oxer-html/* /var/www/html/
 
-
-echo "me: hi friends"
-
-echo "hello"
-
-echo "me: how are you"
